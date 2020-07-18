@@ -1,0 +1,138 @@
+@font-face {
+    font-family: NunitoBlack;
+    src: url('fonts/Nunito-Black.ttf');
+}
+
+@font-face {
+    font-family: NunitoSemiBold;
+    src: url('fonts/Nunito-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Regular.ttf')
+}
+
+@font-face {
+    font-family: PlayfairBlack;
+    src: url('fonts/PlayfairDisplay-Black.ttf');
+}
+
+@font-face {
+    font-family: PlayfairSemibold;
+    src: url('fonts/PlayfairDisplay-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url('fonts/PlayfairDisplay-Regular.ttf')
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+}   
+body{
+    margin: 0px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Playfair', serif;
+}
+    
+.menu-item{
+    margin-left: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+
+}
+.header-nav-conatiner{
+    background-color:violet;
+    background-image: linear-gradient(to bottom left,orange,rgb(224, 85, 224),rgb(133, 133, 245),lightblue);
+    
+
+    height: 500px;
+    opacity: 0.7;
+}
+.header-letter{
+    margin-top: 47px;
+    margin-left: 50px;
+}
+.bring{
+    font-size: 50px;
+}
+.image-container{
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.radial-background {
+    background-image: radial-gradient(white, #f3e8f5, #f0f1fb, white, white, white);
+    position: absolute;
+    top: -100px;
+    left: -250px;
+    height: 600px;
+    width: 600px;
+    z-index: -2;
+}
+
+.logo-text {
+    font-family: 'NunitoBold', sans-serif;
+    font-weight: 900; 
+    font-size: 25px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.moto { 
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: 1fr 1fr;
+}
+.moto hr{
+    height: 0px;
+    width: 50px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.moto p {
+    color: #949397;
+    width: 60%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.free-trial-button{
+    background-image: linear-gradient(to right, #d494b1 20%, #a2abf6,#d494b1);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Playfair;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    grid-column: 2/3;
+}
+
+.free-trial-button:hover {
+    background-position: left bottom;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: max-content max-content;
+}
