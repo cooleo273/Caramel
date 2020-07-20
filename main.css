@@ -53,10 +53,27 @@ body{
 }
     
 .menu-item{
-    margin-left: 36px;
+    margin-left: 55px;
     padding: 10px 15px;
     color: white;
     font-family: 'Nunito', sans-serif;
+
+}
+.fifth-item{
+    margin-left: 55px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-style:solid ;
+    border-width: 1px;
+
+}
+.sixth-item{
+    margin-left: 55px;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    
 
 }
 .header-nav-conatiner{
@@ -120,9 +137,9 @@ body{
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
-    width: 150px;
-    height: 40px;
-    font-size: 14px;
+    width: 220px;
+    height: 50px;
+    font-size: 15px;
     cursor: pointer;
     font-family: Playfair;
     text-transform: capitalize;
@@ -234,7 +251,7 @@ body{
 }
 .authors-text{
     display: grid;
-    place-content: center;
+    
     grid-row: 1/2;
 }
 .authors-text p::before{
@@ -261,7 +278,7 @@ body{
     background-size: 600px 600px;
     background-repeat: no-repeat;
     background-position: center center;
-    grid-column: 1/4;
+    grid-column: 1/2;
     z-index: -2;
     display: grid;
     align-content: center;
@@ -274,4 +291,50 @@ body{
     height: 400px;
     object-fit: cover;
     border-radius: 100%;
+}
+.footer{
+    height: 600px;
+    bottom: 0px;
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr;
+    background-color:#f0f1fb;
+
+}
+.footer p{
+    font-size: 60px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    
+}
+.free-trail-button-container{
+   display: flex;
+   align-items: center;
+}
+.footer .logo-text{
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+}
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.footer-lists{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.table-nav-container{
+    list-style-type: none;
+    line-height: 35px;
+}
+.first-item{
+    font-weight: 700;
 }
