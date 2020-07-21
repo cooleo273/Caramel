@@ -53,14 +53,14 @@ body{
 }
     
 .menu-item{
-    margin-left: 55px;
+    margin-left: 15px;
     padding: 10px 15px;
     color: white;
     font-family: 'Nunito', sans-serif;
 
 }
 .fifth-item{
-    margin-left: 55px;
+    margin-left: 15px;
     padding: 10px 20px;
     color: white;
     font-family: 'Nunito', sans-serif;
@@ -69,7 +69,7 @@ body{
 
 }
 .sixth-item{
-    margin-left: 55px;
+    margin-left: 15px;
     padding: 10px 15px;
     color: white;
     font-family: 'Nunito', sans-serif;
@@ -109,7 +109,7 @@ body{
 .logo-text {
     font-family: 'NunitoBold', sans-serif;
     font-weight: 900; 
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     width: max-content;
 }
@@ -245,8 +245,9 @@ body{
 }
 .authors-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 51% 49%;
     grid-template-rows: max-content;
+    height: 700px;
 
 }
 .authors-text{
@@ -268,9 +269,9 @@ body{
 .author-biography{
     position: relative;
     top: -161px;
-    font-size:47px ;
+    font-size:30px ;
     color: gray;
-    width: 800px;
+    width: 650px;
     grid-column: 1/3;
 }
 .radial-background-3 {
@@ -284,6 +285,7 @@ body{
     align-content: center;
     justify-content: center;
     grid-row: 1/2;
+    height: 655px;
 }
 
 .radial-background-3 img {
@@ -293,7 +295,7 @@ body{
     border-radius: 100%;
 }
 .footer{
-    height: 600px;
+    height: 500px;
     bottom: 0px;
     display: grid;
     
@@ -302,7 +304,7 @@ body{
 
 }
 .footer p{
-    font-size: 60px;
+    font-size: 47px;
     width: 800px;
     display: flex;
     justify-content: center;
@@ -311,8 +313,7 @@ body{
     
 }
 .free-trail-button-container{
-   display: flex;
-   align-items: center;
+    margin-top: 86px;
 }
 .footer .logo-text{
     display: flex;
